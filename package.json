@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Roey M",
   "license": "MIT",
+  "engines": {
+    "node": "12.13.0",
+    "yarn": "1.19.2"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
