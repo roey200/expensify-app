@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "test": "jest --config=jest.config.json"
   },
@@ -25,6 +26,7 @@
     "enzyme": "3.0.0",
     "enzyme-adapter-react-16": "1.0.0",
     "enzyme-to-json": "3.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "jest": "^26.2.2",
     "live-server": "^1.2.0",
     "moment": "^2.27.0",
@@ -47,5 +49,15 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "description": "git init - create a new git repo\r git status - View the changes to your porject code\r git add - Add files to staging are\r git commit - Created a new commit with files from staging area\r git log - View recent commits",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roey200/expensify-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roey200/expensify-app/issues"
+  },
+  "homepage": "https://github.com/roey200/expensify-app#readme"
 }
