@@ -3,3 +3,4 @@ public/dist/
 .env.development
 .env.test
 yarn.lock
+package-lock.json
