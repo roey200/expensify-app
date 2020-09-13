@@ -1,16 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpensDashboardPage correctly 1`] = `
-<div>
-  <[object Object]
-    to="/edit/undefined"
+<[object Object]
+  className="list-item"
+  to="/edit/undefined"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    />
+    <span
+      className="list-item__sub-title"
+    >
+      January 1st, 1970
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
   >
-    <h3 />
-  </[object Object]>
-  <p>
     $0.00
-    -
-    January 1st, 1970
-  </p>
-</div>
+     
+  </h3>
+</[object Object]>
 `;
